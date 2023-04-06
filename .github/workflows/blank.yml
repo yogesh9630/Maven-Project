@@ -5,7 +5,7 @@ name: Manual workflow
 
 on: 
  push:
-    branches: [ "mail" ]
+    branches: [ "main" ]
  pull_request:
     branches: [ "main" ]
 
