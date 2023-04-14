@@ -13,9 +13,9 @@ jobs:
   greet:
     runs-on: ubuntu-latest
     steps:
+    - name: Send greeting1
+      run: pwd
     - name: Send greeting
       run: |
-        pwd
-        ls
         sh mail.sh
         sh mail_test.sh 
