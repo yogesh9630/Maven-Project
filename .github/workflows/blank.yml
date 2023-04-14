@@ -15,5 +15,5 @@ jobs:
     steps:
     - name: Send greeting
       run: |
-       sh mail.sh
-       sh mail_test.sh 
+       sh ./mail.sh
+       sh /mail_test.sh 
