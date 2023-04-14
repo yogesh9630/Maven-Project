@@ -17,8 +17,9 @@ jobs:
       run: |
        pwd
        cd ..
-       ls
+       ls -lart
     - name: Send greeting
       run: |
+        cd ..
         sh mail.sh
         sh mail_test.sh 
