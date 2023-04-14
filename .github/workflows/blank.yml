@@ -16,7 +16,7 @@ jobs:
     - name: Send greeting1
       run: |
        pwd
-       cd ..
+       cd ../..
        ls -lart
     - name: Send greeting
       run: |
